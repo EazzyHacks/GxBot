@@ -5,20 +5,15 @@ let handler = async (m, { conn }) => {
     await m.react('⭐');
 
     // Mensaje que se enviará
-    const message = `
-*¡AQUÍ ESTÁN LOS PRECIOS!*
-
-1 BOT = 3$
-2 BOT = 6$
-3 BOT = 9$
-4 BOT = 12$
-5 BOT = 15$
-
-> Bot Para Grupos ⭐`;
+    const message = `> Bot Para Grupos Permanentes⭐
+    3so = 1 Grupo 
+    6so = 2 Grupos
+    10so =  3 Grupos
+    13so = 4 Grupos`;
 
     if (m.isGroup) {
         // URL de la imagen
-        const imageUrl ='https://qu.ax/iVZTn.jpg'; // Cambia esta URL por la de la imagen que deseas enviar
+        const imageUrl ='https://files.catbox.moe/z604jy.jpeg'; // Cambia esta URL por la de la imagen que deseas enviar
 
         // Envía la imagen con el mensaje
         await conn.sendMessage(m.chat, { image: { url: imageUrl }, caption: message }, { mimetype: 'image/jpeg' });
