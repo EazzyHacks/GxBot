@@ -28,7 +28,7 @@ handler.help = ['setwelcome @user + texto'];
 handler.tags = ['group'];
 handler.command = ['setwelcome', 'bienvenida']; 
 handler.botAdmin = false
-handler.admin = true
+handler.admin = false
 handler.group = true
 
 export default handler;
