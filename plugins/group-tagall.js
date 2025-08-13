@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-const handler = async (m, { isOwner, isAdmin, conn, text, participants, args}) => {
+const handler = async (m, { isAdmin, conn, text, participants, args}) => {
   const chat = global.db.data.chats[m.chat] || {};
   const emoji = chat.emojiTag || '🤖';
 
