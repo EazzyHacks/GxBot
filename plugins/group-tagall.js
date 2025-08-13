@@ -4,7 +4,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args}) =
   const chat = global.db.data.chats[m.chat] || {};
   const emoji = chat.emojiTag || '🤖';
 
-  if (!(isAdmin || isOwner)) {
+  if (!(isAdmin)) {
     global.dfail('admin', m, conn);
     throw new Error('No tienes permisos para usar este comando.');
 }
