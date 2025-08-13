@@ -41,18 +41,18 @@ var handler = async function (m, conn, db) {
     let pushname = m.pushName || 'Sin nombre'
 
     // Datos generales del bot
-    let creador = 'Wa.me/584146277368'
+    let creador = 'Wa.me/51936994155'
     let ofcbot = conn.user.jid.split('@')[0]
-    let asistencia = 'Wa.me/5804146277368'
+    let asistencia = 'Wa.me/51936994155'
 
     // Lista de canales
     let canalIdM = [
-        "120363414007802886@newsletter",
-        "120363414007802886@newsletter"
+        "120363419947391620@newsletter",
+        "120363419947391620@newsletter"
     ]
     let canalNombreM = [
-        "sá¥²sá¥™ká¥± á‘²á¥†ð— máƒ« ðŸŒ€",
-        "âœ§â”Šâ”‹â—ŸðŸš€sá¥²sá¥™ká¥± á‘²á¥†ð—ðŸš€â—žâ”Šâ”‹âœ§"
+        "Ｇｈｏｓｔ Ｂｏｔ Ｓｕｐｒｅｍｅ",
+        "Ｇｈｏｓｔ Ｂｏｔ Ｓｕｐｒｅｍｅ"
     ]
 
     async function getRandomChannel() {
@@ -114,8 +114,8 @@ var handler = async function (m, conn, db) {
                 title: "Texto del bot",
                 body: '🚀 ♡↝Barboza𝐐𐑂𐐲',
                 previewType: "PHOTO",
-                thumbnailUrl: "https://qu.ax/QGAVS.jpg",
-                sourceUrl: "https://whatsapp.com/channel/0029Vaua0ZD3gvWjQaIpSy18",
+                thumbnailUrl: "https://files.catbox.moe/z604jy.jpeg",
+                sourceUrl: "https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m",
                 mediaType: 1,
                 renderLargerThumbnail: false
             }
