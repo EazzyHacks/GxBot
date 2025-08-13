@@ -88,7 +88,7 @@ const handler = async (m, { isAdmin, conn, text, participants, args}) => {
 handler.help = ['todos'];
 handler.tags = ['group'];
 handler.command = /^(tagall|invocar|marcar|todos|invocación)$/i;
-handler.admin = true; // <-- Esta linea fue corregida
+handler.admin = false; // <-- Esta linea fue corregida
 handler.group = true;
 
 export default handler;
