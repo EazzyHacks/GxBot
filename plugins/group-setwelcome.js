@@ -27,8 +27,8 @@ let handler = async (m, { conn, text, isROwner, isOwner }) => {
 handler.help = ['setwelcome @user + texto'];
 handler.tags = ['group'];
 handler.command = ['setwelcome', 'bienvenida']; 
-handler.botAdmin = true;
-handler.admin = true;
-handler.group = true;
+handler.botAdmin = false
+handler.admin = true
+handler.group = true
 
 export default handler;
