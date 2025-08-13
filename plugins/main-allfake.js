@@ -112,7 +112,7 @@ var handler = async function (m, conn, db) {
             externalAdReply: {
                 showAdAttribution: true,
                 title: "Texto del bot",
-                body: '🚀 ♡↝Barboza𝐐𐑂𐐲',
+                body: 'Ｇｈｏｓｔ Ｂｏｔ Ｓｕｐｒｅｍｅ',
                 previewType: "PHOTO",
                 thumbnailUrl: "https://files.catbox.moe/z604jy.jpeg",
                 sourceUrl: "https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m",
